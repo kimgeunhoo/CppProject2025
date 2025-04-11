@@ -22,6 +22,46 @@ namespace ConsoleUtils
 		COORD pos = { x, y };
 		SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE), pos);
 	}
+
+	void InputPlayerKey(int& x, int& y)
+	{
+		if (_kbhit())
+		{
+			if (GetAsyncKeyState(VK_LEFT)) // 키보드 왼쪽
+			{
+				x--;
+				if (x < 0)
+				{
+					x = 0;
+				}
+			}
+			else if (GetAsyncKeyState(VK_RIGHT)) // 키보드 오른쪽
+			{
+				x++;
+				if (x > 30)
+				{
+					x = 30;
+				}
+			}
+			else if (GetAsyncKeyState(VK_UP)) // 키보드 위쪽
+			{
+				y--;
+				if (y < 0)
+				{
+					y = 0;
+				}
+			}
+			else if (GetAsyncKeyState(VK_DOWN)) // 키보드 아래쪽
+			{
+				y++;
+				if (y > 30)
+				{
+					y = 30;
+				}
+			}
+		}
+
+	}
 }
 
 int main() 
@@ -57,9 +97,22 @@ int main()
 		}
 		else 
 		{
-
+			break;
 		}
-		system("cls");
+
+		int playerX = 0 , playerY = 0;
+		int UIX = 35, UIY = 10;
+		while (true) // 플레이어 이동 구현
+		{
+			system("cls");
+			ConsoleUtils::InputPlayerKey(playerX, playerY);
+			ConsoleUtils::GoToXY(UIX, UIY);
+			std::cout << "플레이어의 좌표: " << "[" << playerX << "," << playerY << "]" << std::endl;
+			ConsoleUtils::GoToXY(playerX, playerY);
+			std::cout << "♥";
+			Sleep(30);
+			
+		}
 	}
 }
 
