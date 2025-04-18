@@ -19,7 +19,7 @@ char SlimeBattle[IMAGEHEIGHT][IMAGEWIDTH + 1] =
 	{"  ******  "},
 	{"   ****   "},
 	{"    **    "},
-	{"    **  "},
+	{"    **    "},
 	{"   ____   "},
 	{"  |    |  "},
 	{" | >  < | "},
@@ -60,17 +60,17 @@ char PlayerBattle[IMAGEHEIGHT][IMAGEWIDTH + 1] =
 {
 	{"          "},
 	{"   +--+   "},
-	{"   |  |   "},
-	{"   ++++   "},
-	{"    ||    "},
-	{" --+--+-- "},
+	{"   |  | | "},
+	{"   ++++ | "},
+	{"    || -+-"},
+	{" --+--+-+ "},
 	{"   |  |   "},
 	{"   +--+   "},
 	{"   |  |   "},
 	{"  =+  +=  "},
 };
 
-char PlayerMove[IMAGEHEIGHT][IMAGEWIDTH + 1] =
+char PlayerMove1[IMAGEHEIGHT][IMAGEWIDTH + 1] =
 {
 	{"          "},
 	{"   +--+   "},
@@ -80,6 +80,20 @@ char PlayerMove[IMAGEHEIGHT][IMAGEWIDTH + 1] =
 	{" --+--+-- "},
 	{"   |  |   "},
 	{"   +--+   "},
+	{"  =+  |   "},
+	{"      +=  "},
+};
+
+char PlayerMove2[IMAGEHEIGHT][IMAGEWIDTH + 1] =
+{
+	{"          "},
+	{"   +--+   "},
 	{"   |  |   "},
-	{"  =+  +=  "},
+	{"   ++++   "},
+	{"    ||    "},
+	{" --+--+-- "},
+	{"   |  |   "},
+	{"   +--+   "},
+	{"   |  +=  "},
+	{"  =+      "},
 };

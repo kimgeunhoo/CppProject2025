@@ -1,0 +1,56 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "ff1010b6-4d83-4753-ba0e-63d9d345f2a7": {
+      "ProjectGuid": "ff1010b6-4d83-4753-ba0e-63d9d345f2a7",
+      "DisplayName": "BattleSystem",
+      "ColorIndex": 0
+    },
+    "cad3bb68-2e80-4978-b996-01ef8b277ed4": {
+      "ProjectGuid": "cad3bb68-2e80-4978-b996-01ef8b277ed4",
+      "DisplayName": "Ch5",
+      "ColorIndex": 1
+    },
+    "8df01e26-3054-48b1-a75a-0807d1672c02": {
+      "ProjectGuid": "8df01e26-3054-48b1-a75a-0807d1672c02",
+      "DisplayName": "ToyProject1",
+      "ColorIndex": 2
+    },
+    "15f14bf0-596b-442a-82c9-0c0016f49adb": {
+      "ProjectGuid": "15f14bf0-596b-442a-82c9-0c0016f49adb",
+      "DisplayName": "Ch4",
+      "ColorIndex": 3
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "기타 파일",
+      "ColorIndex": -1
+    },
+    "183ea193-ab35-44e0-a2dc-22ade281d780": {
+      "ProjectGuid": "183ea193-ab35-44e0-a2dc-22ade281d780",
+      "DisplayName": "Chapter3",
+      "ColorIndex": 4
+    },
+    "fdb031b4-37e6-4406-b480-218d6282386a": {
+      "ProjectGuid": "fdb031b4-37e6-4406-b480-218d6282386a",
+      "DisplayName": "Ch2",
+      "ColorIndex": 5
+    },
+    "3e1ba0a8-b69c-4520-aa15-80b70d513647": {
+      "ProjectGuid": "3e1ba0a8-b69c-4520-aa15-80b70d513647",
+      "DisplayName": "MazeEscape_Cpp",
+      "ColorIndex": 6
+    },
+    "bd3046f8-a44e-424a-ba56-1d42818a0e68": {
+      "ProjectGuid": "bd3046f8-a44e-424a-ba56-1d42818a0e68",
+      "DisplayName": "ProjectCpp",
+      "ColorIndex": 7
+    },
+    "015ac4ea-9151-494d-a0ff-7324f9fdc99d": {
+      "ProjectGuid": "015ac4ea-9151-494d-a0ff-7324f9fdc99d",
+      "DisplayName": "Ch1",
+      "ColorIndex": 8
+    }
+  },
+  "NextColorIndex": 9
+}
