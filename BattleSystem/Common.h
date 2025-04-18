@@ -8,7 +8,13 @@ using std::cout;
 using std::endl;
 using std::string;
 
-void GoToXY(int x, int y);
+enum TurnSystem
+{
+	PLAYERTURN,
+	ENEMYTURN,
+	GAMECLEAR,
+	GAMEEND
+};
 
 enum BattleState
 {
@@ -17,10 +23,6 @@ enum BattleState
 	BATTLE
 };
 
-enum TuenSystem
-{
-	PLAYERTURN,
-	ENEMYTURN,
-	GAMECLEAR,
-	GAMEEND
-};
+void GoToXY(int x, int y);
+void setCursorVisible(int x, int y);
+

@@ -9,3 +9,8 @@
 extern char SlimeIdle[IMAGEHEIGHT][IMAGEWIDTH + 1];
 extern char SlimeBattle[IMAGEHEIGHT][IMAGEWIDTH + 1];
 extern char SlimeMove[IMAGEHEIGHT][IMAGEWIDTH + 1];
+
+extern char PlayerIdle[IMAGEHEIGHT][IMAGEWIDTH + 1];
+extern char PlayerBattle[IMAGEHEIGHT][IMAGEWIDTH + 1];
+extern char PlayerMove1[IMAGEHEIGHT][IMAGEWIDTH + 1];
+extern char PlayerMove2[IMAGEHEIGHT][IMAGEWIDTH + 1];

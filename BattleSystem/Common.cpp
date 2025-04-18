@@ -6,3 +6,7 @@ void GoToXY(int x, int y)
 	SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE), pos);
 }
 
+void setCursorVisible(int x, int y)
+{
+
+}
