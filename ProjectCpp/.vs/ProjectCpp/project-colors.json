@@ -60,7 +60,27 @@
       "ProjectGuid": "8da6874d-a1d2-4cae-89a6-ed211783d12e",
       "DisplayName": "Ch7",
       "ColorIndex": 10
+    },
+    "837b63f6-8c41-476b-a759-1dafd49c7e70": {
+      "ProjectGuid": "837b63f6-8c41-476b-a759-1dafd49c7e70",
+      "DisplayName": "Ch9",
+      "ColorIndex": 11
+    },
+    "ac851375-c02b-4e38-90de-41b4881834d6": {
+      "ProjectGuid": "ac851375-c02b-4e38-90de-41b4881834d6",
+      "DisplayName": "Ch8",
+      "ColorIndex": 12
+    },
+    "c6894289-fc60-4d1f-98ee-d9b28d9ebb53": {
+      "ProjectGuid": "c6894289-fc60-4d1f-98ee-d9b28d9ebb53",
+      "DisplayName": "Ch10",
+      "ColorIndex": 13
+    },
+    "a9ad71c2-c86a-486c-bb1c-eac153029ce5": {
+      "ProjectGuid": "a9ad71c2-c86a-486c-bb1c-eac153029ce5",
+      "DisplayName": "GameSysProject",
+      "ColorIndex": 14
     }
   },
-  "NextColorIndex": 11
+  "NextColorIndex": 15
 }
