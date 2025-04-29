@@ -80,7 +80,12 @@
       "ProjectGuid": "a9ad71c2-c86a-486c-bb1c-eac153029ce5",
       "DisplayName": "GameSysProject",
       "ColorIndex": 14
+    },
+    "91155ecf-75ae-4658-8914-811293bb7dad": {
+      "ProjectGuid": "91155ecf-75ae-4658-8914-811293bb7dad",
+      "DisplayName": "Ch11",
+      "ColorIndex": 15
     }
   },
-  "NextColorIndex": 15
+  "NextColorIndex": 0
 }
