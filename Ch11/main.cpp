@@ -34,10 +34,12 @@ int main()
 	system("cls");
 	cout << "달리기 게임 코드" << endl;
 
-	Runner* runA = new Player("AAA");
-	Runner* runB = new Runner("BBB");
-	Runner* runC = new Runner("CCC");
-	Runner* runD = new Runner("DDD");
+	// 사운드를 출력하는 기능을 작성
+
+	Runner* runA = new Player();
+	Runner* runB = new Enemy("BBB");
+	Runner* runC = new Enemy();
+	Runner* runD = new Enemy("DDD");
 	//int runA = 0;	// 1번 주자의 현재 이동 거리
 	//int runB = 0;	
 	//int runC = 0;
@@ -54,6 +56,7 @@ int main()
 
 	while (true)
 	{
+		SoundUtil::PlayBGM1(_T("sound.wav"));
 
 		Sleep(1000);  // 1초마다 게임을 업데이트
 		system("cls"); // 화면 지우기
