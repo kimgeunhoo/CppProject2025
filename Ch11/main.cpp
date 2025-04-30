@@ -27,75 +27,11 @@ void ClassDefaultInfo()
 
 #include "Utility.h"
 #include "Runner.h"
+#include "GameManger.h"
 
 int main()
 {
-	ClassDefaultInfo();
-	system("cls");
-	cout << "달리기 게임 코드" << endl;
-
-	// 사운드를 출력하는 기능을 작성
-
-	Runner* runA = new Player();
-	Runner* runB = new Enemy("BBB");
-	Runner* runC = new Enemy();
-	Runner* runD = new Enemy("DDD");
-	//int runA = 0;	// 1번 주자의 현재 이동 거리
-	//int runB = 0;	
-	//int runC = 0;
-	//int runD = 0;
-
-	/*int endA = false;
-	int endB = false;
-	int endC = false;
-	int endD = false;*/
-
-	string line = "==========================================================================";
-
-	int endline = line.length();
-
-	while (true)
-	{
-		SoundUtil::PlayBGM1(_T("sound.wav"));
-
-		Sleep(1000);  // 1초마다 게임을 업데이트
-		system("cls"); // 화면 지우기
-
-		cout << line << endl;
-
-		runA->Run();
-		runB->Run();
-		runC->Run();
-		runD->Run();
-
-		cout << line << endl;
-		
-
-		if (runA->CheckEndLine(endline) 
-			|| runB->CheckEndLine(endline)
-			|| runC->CheckEndLine(endline)
-			|| runD->CheckEndLine(endline))
-		{
-			cout << "경기 종료" << endl;
-			break;
-		}
-	}
-
-	if (runA->CheckEndLine(endline))
-	{
-		cout << "A가 1등을 하였습니다." << endl;
-	}
-	if (runB->CheckEndLine(endline))
-	{
-		cout << "B가 1등을 하였습니다." << endl;
-	}
-	if (runC->CheckEndLine(endline))
-	{
-		cout << "C가 1등을 하였습니다." << endl;
-	}
-	if (runD->CheckEndLine(endline))
-	{
-		cout << "D가 1등을 하였습니다." << endl;
-	}
+	GameManager game;
+	game.Play();
 }
 
