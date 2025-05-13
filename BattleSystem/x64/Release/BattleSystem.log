@@ -1,0 +1,13 @@
+﻿  Common.cpp
+C:\Users\bungj\Desktop\CppProject2025\BattleSystem\Common.cpp(5,16): warning C4838: 'int'에서 'SHORT'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\bungj\Desktop\CppProject2025\BattleSystem\Common.cpp(5,19): warning C4838: 'int'에서 'SHORT'(으)로의 변환에는 축소 변환이 필요합니다.
+  Enemy.cpp
+  GameManager.cpp
+  Image.cpp
+  main.cpp
+  Player.cpp
+  코드를 생성하고 있습니다.
+  Previous IPDB not found, fall back to full compilation.
+  All 106 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  코드를 생성했습니다.
+  BattleSystem.vcxproj -> C:\Users\bungj\Desktop\CppProject2025\ProjectCpp\x64\Release\BattleSystem.exe
