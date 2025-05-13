@@ -1,0 +1,10 @@
+﻿  main.cpp
+  Runner2.cpp
+  SoundUtil.cpp
+  Utility.cpp
+C:\Users\bungj\Desktop\CppProject2025\Ch12\Utility.cpp(15,23): warning C4838: 'int'에서 'SHORT'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\bungj\Desktop\CppProject2025\Ch12\Utility.cpp(15,25): warning C4838: 'int'에서 'SHORT'(으)로의 변환에는 축소 변환이 필요합니다.
+Utility.obj : error LNK2005: "public: static void __cdecl SoundUtil::PlayBGM1(wchar_t const *)" (?PlayBGM1@SoundUtil@@SAXPEB_W@Z)이(가) SoundUtil.obj에 이미 정의되어 있습니다.
+Utility.obj : error LNK2005: "public: static void __cdecl SoundUtil::PlayTitleSound1(wchar_t const *)" (?PlayTitleSound1@SoundUtil@@SAXPEB_W@Z)이(가) SoundUtil.obj에 이미 정의되어 있습니다.
+SoundUtil.obj : error LNK2001: 확인할 수 없는 외부 기호 __imp_PlaySoundW
+C:\Users\bungj\Desktop\CppProject2025\ProjectCpp\x64\Release\Ch12.exe : fatal error LNK1120: 1개의 확인할 수 없는 외부 참조입니다.
