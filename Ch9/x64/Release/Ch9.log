@@ -1,0 +1,13 @@
+﻿  GameSynergy.cpp
+  Hero.cpp
+  main.cpp
+  Monster.cpp
+  MonsterHandler.cpp
+  PlayerStat.cpp
+  Weapon.cpp
+C:\Users\bungj\Desktop\CppProject2025\Ch9\Weapon.cpp(5,2): error C2248: 'Weapon::defaultATK': private 멤버('Weapon' 클래스에서 선언)에 액세스할 수 없습니다.
+      C:\Users\bungj\Desktop\CppProject2025\Ch9\Weapon.h(25,6):
+      'Weapon::defaultATK' 선언을 참조하십시오.
+      C:\Users\bungj\Desktop\CppProject2025\Ch9\Weapon.h(21,7):
+      'Weapon' 선언을 참조하십시오.
+  
