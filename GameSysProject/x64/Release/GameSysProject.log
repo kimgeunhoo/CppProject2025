@@ -1,0 +1,11 @@
+﻿  Console.cpp
+  GameManager.cpp
+  main.cpp
+  Player.cpp
+C:\Users\bungj\Desktop\CppProject2025\GameSysProject\Player.cpp(75,49): error C3867: 'Player::SwapStatus': 비표준 구문입니다. '&'를 사용하여 멤버 포인터를 만드세요.
+      C:\Users\bungj\Desktop\CppProject2025\GameSysProject\Player.cpp(75,49):
+      템플릿 인스턴스화 컨텍스트(가장 오래된 인스턴스화 컨텍스트)가
+          C:\Users\bungj\Desktop\CppProject2025\GameSysProject\Player.cpp(75,7):
+          컴파일되는 함수 템플릿 인스턴스화 'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::error_code &)'에 대한 참조를 확인하세요.
+  
+  Weapon.cpp
